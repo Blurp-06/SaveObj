@@ -36,6 +36,12 @@ namespace SaveObj
 		oFile.close();
 	}
 
+	/// <summary>
+	/// Reads file and puts it into an object of T.
+	/// </summary>
+	/// <typeparam name="T">A struct or class.</typeparam>
+	/// <param name="fileName">Name of the file to read.</param>
+	/// <returns>will return a variable of T with the data.</returns>
 	template<class T>
 	T readObject(const char* fileName)
 	{

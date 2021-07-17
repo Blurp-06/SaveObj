@@ -9,13 +9,16 @@ typedef struct {
 
 int main()
 {
+	// Making a Person object.
 	Person p;
 	p.name = (char *)"Johny Doe";
 	p.age = 10;
 	p.isMale = true;
 
+	// Writing it to a file.
 	writeObject<Person>(p, "test");
 
+	// Extracting object p and putting it in p2.
 	Person p2;
 	p2 = readObject<Person>("test");
 
