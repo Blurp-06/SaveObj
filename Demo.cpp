@@ -16,7 +16,7 @@ int main()
 	p.isMale = true;
 
 	// Writing it to a file.
-	writeObject<Person>(p, "test");
+	writeObject<Person>(&p, "test");
 
 	// Extracting object p and putting it in p2.
 	Person p2;
