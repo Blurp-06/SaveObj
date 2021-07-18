@@ -1,5 +1,5 @@
-#ifndef SaveObj
-#define SaveObj
+#ifndef SAVE_OBJ
+#define SAVE_OBJ
 #include <fstream>
 
 namespace SaveObj
@@ -76,4 +76,4 @@ namespace SaveObj
 		return tmp;
 	}
 }
-#endif // !SaveObj
+#endif // !SAVE_OBJ

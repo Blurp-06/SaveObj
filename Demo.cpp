@@ -16,11 +16,11 @@ int main()
 	p.isMale = true;
 
 	// Writing it to a file.
-	writeObject<Person>(&p, "test");
+	SaveObj::writeObject<Person>(&p, "test");
 
 	// Extracting object p and putting it in p2.
 	Person p2;
-	p2 = readObject<Person>("test");
+	p2 = SaveObj::readObject<Person>("test");
 
 	std::cout << p2.name << std::endl;		// Johny Doe
 	std::cout << p2.age << std::endl;		// 10
