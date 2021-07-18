@@ -4,7 +4,6 @@
 
 namespace SaveObj
 {
-
 	/// <summary>
 	///	This function will write the bytes of the object into a file.
 	/// </summary>

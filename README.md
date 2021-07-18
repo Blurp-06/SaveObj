@@ -11,3 +11,6 @@ In this demo file I show how to use the functions in SaveObj.h; please take a go
 
 # License
 I don't have a license, just use it idc.
+
+# Note
+Note that every compiler implements padding differently. These files also won't work crossplatform because of the difference in memory management. I only tested it on Win x64 so errors/bugs may happen on other platforms.
